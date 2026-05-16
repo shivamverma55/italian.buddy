@@ -8,7 +8,7 @@ st.title("🇮🇹 Italy Study Advisor AI")
 st.markdown("**Bachelor's & Master's in Italy**")
 
 # API Keys
-os.environ["GROQ_API_KEY"] = st.secrets.get("GROQ_API_KEY", "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")
+os.environ["GROQ_API_KEY"] = st.secrets.get
 
 @st.cache_resource
 def load_llm():
