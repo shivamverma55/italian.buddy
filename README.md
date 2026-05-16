@@ -1,4 +1,3 @@
 streamlit
-langchain
 langchain-groq
 langchain-community
